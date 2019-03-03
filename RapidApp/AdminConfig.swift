@@ -9,25 +9,25 @@
 import Foundation
 
 struct Network {
-    let url: String = "https://connections.digital"
+    let url: String = "https://chrisjohnsonart.com"
 }
 
 struct Contact {
-    let longName: String = "Connections Information Systems"
-    let shortName: String = "Connections.Digital"
-    let tagLine: String = "Website Design & Media Production"
+    let longName: String = "Chris Johnson Fine Art"
+    let shortName: String = "Chris Johnson"
+    let tagLine: String = "From Fine Art to Cartoons"
     let address1: String = "9507 Perry Avenue"
     let address2: String = ""
     let city: String = "Amarillo"
     let stateProvince: String = "Texas"
-    let postalCode: String = "79119"
-    let phone: String = "(806) 341-8422"
+    let postalCode: String = "79102"
+    let phone: String = "(806) 282-5984"
     let fax: String = ""
-    let email: String = "service@connections.digital"
-    let website: String = "https://Connections.Digital"
-    let facebookUrl: String = "https://business.facebook.com/connectionsdigitalmedia"
-    let twitter: String = "@ConnectionsDM"
-    let youTubeUrl: String = "https://www.youtube.com/connectionsis/"
+    let email: String = "ChrisJohnsonFineArt@gmail.com"
+    let website: String = "https://chrisjohnsonart.com"
+    let facebookUrl: String = "https://www.facebook.com/ChrisJohnsonArtist"
+    let twitter: String = "@chrisjohnsonart"
+    let youTubeUrl: String = ""
 }
 
 struct Style {

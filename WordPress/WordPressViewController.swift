@@ -34,7 +34,7 @@ class PostViewController: UIViewController, UITableViewDelegate, UITableViewData
         let session = URLSession(configuration: config)
         
         // Specify the URL to connect
-        let url = URL(string: "https://wordpress.org/news/wp-json/wp/v2/posts/")
+        let url = URL(string: "https://chrisjohnsonart.com/wp-json/wp/v2/posts/")
         
         // Set communication processing task
         let task = session.dataTask(with: url!) {(data, response, error) in

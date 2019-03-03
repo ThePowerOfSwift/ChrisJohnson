@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChrisJohnson" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,10 +26,10 @@
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y9h-7y-mY1">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.74901960779999999" green="0.48627450979999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Terms of use for Connections.Digital
+                                        <string key="content">Terms of use for Chris Johnson
 1. Acceptance of terms of use and amendments
 Each time you use or cause access to this website, you agree to be bound by these Terms of use, as amended from time to time with or without notice to you. In addition, if you are using a particular service on this web site or accessed via this website, you will be subject to any rules or guidelines applicable to those services, and they will be incorporated by reference within these Terms of use. Please read the site's Privacy policy, which is incorporated within these Terms of use by reference.
 2. The site editor's service
@@ -73,14 +73,14 @@ e-mail to the site administrator
 14. Applicable law
 You agree that these Terms of use and any dispute arising out of your use of this web site or products or services provided will be governed by and construed in accordance with local laws applicable at the site editor's domicile, notwithstanding any differences between the said applicable legislation and legislation in force at your location. By registering for a user account on this website, or by using this website and the services it provides, you accept that jurisdiction is granted to the courts having jurisdiction over the site editor's domicile, and that any disputes will be heard by the said courts.
 15. Miscellaneous information
-</mutableString>
+</string>
                                         <attributes>
                                             <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">(i) In the event that any provision of these Terms of use is deemed to conflict with legislation by a court with jurisdiction over the parties, the said provision will be interpreted to reflect the original intentions of the parties in accordance with applicable law, and the remainder of these Terms of use will remain valid and applicable; (ii) The failure of either party to assert any right under these Terms of use will not be considered to be a waiver of that party's right, and the said right will remain in full force and effect; (iii) You agree that any claim or cause in respect of this website or its services must be filed within one (1) year after such claim or cause arose, or the said claim or cause will be forever barred, without regard to any contrary legislation; (iv) The site editor may assign the site editor's rights and obligations under these Terms of use; in this event, the site editor will be relieved of any further obligation.</mutableString>
+                                        <string key="content">(i) In the event that any provision of these Terms of use is deemed to conflict with legislation by a court with jurisdiction over the parties, the said provision will be interpreted to reflect the original intentions of the parties in accordance with applicable law, and the remainder of these Terms of use will remain valid and applicable; (ii) The failure of either party to assert any right under these Terms of use will not be considered to be a waiver of that party's right, and the said right will remain in full force and effect; (iii) You agree that any claim or cause in respect of this website or its services must be filed within one (1) year after such claim or cause arose, or the said claim or cause will be forever barred, without regard to any contrary legislation; (iv) The site editor may assign the site editor's rights and obligations under these Terms of use; in this event, the site editor will be relieved of any further obligation.</string>
                                         <attributes>
                                             <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingMiddle" baseWritingDirection="natural" minimumLineHeight="2" tighteningFactorForTruncation="0.0"/>
@@ -90,7 +90,7 @@ You agree that these Terms of use and any dispute arising out of your use of thi
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.74901960779999999" green="0.48627450979999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Y9h-7y-mY1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0Ua-v0-rYf"/>
                             <constraint firstItem="Y9h-7y-mY1" firstAttribute="top" secondItem="CXc-Re-0UD" secondAttribute="bottom" id="55E-cl-5IM"/>

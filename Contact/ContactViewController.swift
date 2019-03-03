@@ -29,7 +29,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
 
     @IBAction func sendButton(_ sender: Any) {
         // Format and send email message
-        let toRecipients = ["service@connections.digital"]
+        let toRecipients = ["ChrisJohnsonFineArt@gmail.com"]
         let mc: MFMailComposeViewController = MFMailComposeViewController()
         mc.mailComposeDelegate = self
         mc.setToRecipients(toRecipients)
