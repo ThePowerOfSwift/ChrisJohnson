@@ -21,12 +21,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_20180306_001204_547" translatesAutoresizingMaskIntoConstraints="NO" id="7aP-Er-vT7">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chris Johnson Art" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKQ-fK-Wra">
+                                <rect key="frame" x="35" y="309.5" width="305.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="7aP-Er-vT7" secondAttribute="trailing" id="1pW-5T-MJF"/>
                             <constraint firstAttribute="bottom" secondItem="7aP-Er-vT7" secondAttribute="bottom" id="S25-FI-29c"/>
                             <constraint firstItem="7aP-Er-vT7" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="V45-aB-ymT"/>
+                            <constraint firstItem="sKQ-fK-Wra" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="dI3-gy-Edj"/>
+                            <constraint firstItem="sKQ-fK-Wra" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vXz-Tw-hFF"/>
                             <constraint firstItem="7aP-Er-vT7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="zBA-2T-lUB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -34,10 +42,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-62" y="-116"/>
+            <point key="canvasLocation" x="-63.200000000000003" y="-116.49175412293854"/>
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_20180306_001204_547" width="1190" height="1487"/>
+        <image name="IMG_20180306_001204_547" width="994" height="1487"/>
     </resources>
 </document>

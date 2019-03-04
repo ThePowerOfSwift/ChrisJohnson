@@ -30,7 +30,7 @@
                                 <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Chris Johnson ("us", "we", or "our") operates the https://chrisjohnsonart.com website and the Chis Johnson app (the "Service").
+                                        <string key="content">Chris Johnson ("us", "we", or "our") operates the https://chrisjohnsonart.com website and the Chis Johnson app (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. This Privacy Policy for Chris Johnson is powered by FreePrivacyPolicy.com.
 
@@ -129,7 +129,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 Contact Us
 If you have any questions about this Privacy Policy, please contact us:
-By email: ChrisJohnsonFineArt@gmail.com</mutableString>
+By email: ChrisJohnsonFineArt@gmail.com</string>
                                         <attributes>
                                             <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="12" name="HelveticaNeue"/>
@@ -142,7 +142,7 @@ By email: ChrisJohnsonFineArt@gmail.com</mutableString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.74901960779999999" green="0.48627450979999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="CWj-tx-LVr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="17I-RE-HMF"/>
                             <constraint firstItem="CWj-tx-LVr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="379-xb-qZs"/>

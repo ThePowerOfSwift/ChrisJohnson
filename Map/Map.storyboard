@@ -19,24 +19,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Igw-cM-moa">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <color key="backgroundColor" red="0.74901960779999999" green="0.48627450979999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="delegate" destination="BdW-bd-iuW" id="i0E-MX-SIM"/>
                                 </connections>
                             </mapView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSG-JP-T24">
-                                <rect key="frame" x="0.0" y="728" width="375" height="50"/>
-                                <color key="backgroundColor" red="0.74901960779999999" green="0.48627450979999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="2NF-zl-PPY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5D-jd-zdf">
-                                <rect key="frame" x="295" y="648" width="60" height="60"/>
+                                <rect key="frame" x="295" y="712" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="KjA-Xa-aJE"/>
@@ -53,20 +43,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.74901960779999999" green="0.48627450979999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="CSG-JP-T24" firstAttribute="top" secondItem="m5D-jd-zdf" secondAttribute="bottom" constant="20" id="7GZ-JA-ePa"/>
-                            <constraint firstItem="VBM-7k-Qu2" firstAttribute="bottom" secondItem="Igw-cM-moa" secondAttribute="bottom" id="8rB-g1-evg"/>
+                            <constraint firstAttribute="bottom" secondItem="Igw-cM-moa" secondAttribute="bottom" id="8rB-g1-evg"/>
                             <constraint firstItem="Igw-cM-moa" firstAttribute="leading" secondItem="Rz1-9r-wbd" secondAttribute="leading" id="CFk-GP-C3d"/>
                             <constraint firstAttribute="trailing" secondItem="m5D-jd-zdf" secondAttribute="trailing" constant="20" id="Hox-7Y-uPf"/>
                             <constraint firstItem="Igw-cM-moa" firstAttribute="top" secondItem="Rz1-9r-wbd" secondAttribute="top" id="R1C-Vn-grC"/>
+                            <constraint firstAttribute="bottom" secondItem="m5D-jd-zdf" secondAttribute="bottom" constant="40" id="Z60-uI-mgk"/>
                             <constraint firstAttribute="trailing" secondItem="Igw-cM-moa" secondAttribute="trailing" id="hEq-7i-egA"/>
-                            <constraint firstItem="CSG-JP-T24" firstAttribute="leading" secondItem="Rz1-9r-wbd" secondAttribute="leading" id="iyu-wu-Kj2"/>
-                            <constraint firstAttribute="trailing" secondItem="CSG-JP-T24" secondAttribute="trailing" id="kba-OW-Xas"/>
-                            <constraint firstItem="VBM-7k-Qu2" firstAttribute="bottom" secondItem="CSG-JP-T24" secondAttribute="bottom" id="szB-u9-7Xv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VBM-7k-Qu2"/>
                     </view>
                     <connections>
-                        <outlet property="addressLabel" destination="CSG-JP-T24" id="0cv-PR-FFT"/>
                         <outlet property="goButton" destination="m5D-jd-zdf" id="C59-7x-N7j"/>
                         <outlet property="mapView" destination="Igw-cM-moa" id="Bmf-Bu-opD"/>
                     </connections>
