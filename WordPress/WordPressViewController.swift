@@ -113,10 +113,10 @@ class PostViewController: UIViewController, UITableViewDelegate, UITableViewData
             // Open in reader view if available
             if #available(iOS 11.0, *) {
                 let config = SFSafariViewController.Configuration()
-                config.entersReaderIfAvailable = true
+                config.entersReaderIfAvailable = false
                 controller = SFSafariViewController(url: url, configuration: config)
             } else {
-                controller = SFSafariViewController(url: url, entersReaderIfAvailable: true)
+                controller = SFSafariViewController(url: url, entersReaderIfAvailable: false)
             }
             
             // Transit to the next screen and display it
