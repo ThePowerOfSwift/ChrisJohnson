@@ -228,29 +228,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wpid-20150221_152428-1" translatesAutoresizingMaskIntoConstraints="NO" id="yr7-Qi-y0q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home" translatesAutoresizingMaskIntoConstraints="NO" id="yr7-Qi-y0q">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7m8-bE-hOK">
-                                <rect key="frame" x="26" y="474" width="323" height="176"/>
+                                <rect key="frame" x="0.0" y="528" width="375" height="176"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yln-AL-3kN">
-                                        <rect key="frame" x="10" y="0.0" width="303" height="84"/>
-                                        <color key="backgroundColor" red="0.74901960779999999" green="0.48627450979999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+                                        <color key="backgroundColor" red="0.52549019607843139" green="0.72941176470588232" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                         <state key="normal" title="Latest Work">
-                                            <color key="titleColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <segue destination="Xaq-O4-9j7" kind="show" id="aFo-Id-Ywv"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqC-ac-yCJ">
-                                        <rect key="frame" x="10" y="92" width="303" height="84"/>
-                                        <color key="backgroundColor" red="0.74901960779999999" green="0.48627450979999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="0.0" y="92" width="375" height="84"/>
+                                        <color key="backgroundColor" red="0.52549019607843139" green="0.72941176470588232" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                         <state key="normal" title="Find Me">
-                                            <color key="titleColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <segue destination="kxF-9z-Ddm" kind="show" id="CW8-lb-WA1"/>
@@ -258,10 +258,10 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="mqC-ac-yCJ" secondAttribute="trailing" constant="10" id="EK6-ky-KWx"/>
-                                    <constraint firstItem="yln-AL-3kN" firstAttribute="leading" secondItem="7m8-bE-hOK" secondAttribute="leading" constant="10" id="G15-sZ-cdH"/>
-                                    <constraint firstAttribute="trailing" secondItem="yln-AL-3kN" secondAttribute="trailing" constant="10" id="dqo-ME-REo"/>
-                                    <constraint firstItem="mqC-ac-yCJ" firstAttribute="leading" secondItem="7m8-bE-hOK" secondAttribute="leading" constant="10" id="y2A-HG-A2d"/>
+                                    <constraint firstAttribute="trailing" secondItem="mqC-ac-yCJ" secondAttribute="trailing" id="EK6-ky-KWx"/>
+                                    <constraint firstItem="yln-AL-3kN" firstAttribute="leading" secondItem="7m8-bE-hOK" secondAttribute="leading" id="G15-sZ-cdH"/>
+                                    <constraint firstAttribute="trailing" secondItem="yln-AL-3kN" secondAttribute="trailing" id="dqo-ME-REo"/>
+                                    <constraint firstItem="mqC-ac-yCJ" firstAttribute="leading" secondItem="7m8-bE-hOK" secondAttribute="leading" id="y2A-HG-A2d"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -269,8 +269,10 @@
                         <constraints>
                             <constraint firstItem="7m8-bE-hOK" firstAttribute="centerX" secondItem="IiW-iA-seN" secondAttribute="centerX" id="MI6-NO-PMB"/>
                             <constraint firstAttribute="bottom" secondItem="yr7-Qi-y0q" secondAttribute="bottom" id="UVw-zT-xiJ"/>
+                            <constraint firstItem="7m8-bE-hOK" firstAttribute="leading" secondItem="IiW-iA-seN" secondAttribute="leading" id="WDu-Mm-tme"/>
                             <constraint firstItem="yr7-Qi-y0q" firstAttribute="top" secondItem="IiW-iA-seN" secondAttribute="top" id="WE9-ey-d8B"/>
-                            <constraint firstItem="UUE-sc-5r8" firstAttribute="bottom" secondItem="7m8-bE-hOK" secondAttribute="bottom" constant="40" id="gFn-Y0-wyx"/>
+                            <constraint firstAttribute="bottom" secondItem="7m8-bE-hOK" secondAttribute="bottom" constant="20" id="gFn-Y0-wyx"/>
+                            <constraint firstAttribute="trailing" secondItem="7m8-bE-hOK" secondAttribute="trailing" id="pJ4-Dy-KR0"/>
                             <constraint firstAttribute="trailing" secondItem="yr7-Qi-y0q" secondAttribute="trailing" id="qeN-q9-zDO"/>
                             <constraint firstItem="yr7-Qi-y0q" firstAttribute="leading" secondItem="IiW-iA-seN" secondAttribute="leading" id="wC8-iv-kIr"/>
                         </constraints>
@@ -305,56 +307,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wpid-img_20150828_183132" translatesAutoresizingMaskIntoConstraints="NO" id="gq9-pX-HFk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="About" translatesAutoresizingMaskIntoConstraints="NO" id="gq9-pX-HFk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i00-ou-ce9">
-                                <rect key="frame" x="16" y="416" width="343" height="254"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Chris Johnson Fine Arts">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-3701 Plains Boulevard, Gallery 121
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UDx-PK-Q7O">
+                                <rect key="frame" x="0.0" y="506.66666666666657" width="375" height="217.33333333333331"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i00-ou-ce9">
+                                        <rect key="frame" x="20" y="68.333333333333371" width="335" height="59.666666666666657"/>
+                                        <string key="text">3701 Plains Boulevard, Gallery 121
 Amarillo, Texas 79102
-(806) 282-5984
-
-ChrisJohnsonFineArt@gmail.com</string>
-                                        <attributes>
-                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
+(806) 282-5984</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chris Johnson Art" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXE-aR-naX">
+                                        <rect key="frame" x="20" y="20.000000000000004" width="335" height="38.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hIS-3t-2nL">
+                                        <rect key="frame" x="20" y="138" width="335" height="32"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="ChrisJohnsonFineArt@gmail.com">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                        <integer key="NSUnderline" value="1"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <segue destination="rEP-6Z-2d4" kind="show" id="iXN-b8-FVg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.80455103711790388" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="dXE-aR-naX" firstAttribute="top" secondItem="UDx-PK-Q7O" secondAttribute="top" constant="20" id="DLg-iR-F7w"/>
+                                    <constraint firstItem="hIS-3t-2nL" firstAttribute="leading" secondItem="UDx-PK-Q7O" secondAttribute="leading" constant="20" id="GAT-Sn-feJ"/>
+                                    <constraint firstItem="i00-ou-ce9" firstAttribute="leading" secondItem="UDx-PK-Q7O" secondAttribute="leading" constant="20" id="IS2-Zc-Vwk"/>
+                                    <constraint firstAttribute="trailing" secondItem="i00-ou-ce9" secondAttribute="trailing" constant="20" id="LBb-fH-kze"/>
+                                    <constraint firstItem="hIS-3t-2nL" firstAttribute="top" secondItem="i00-ou-ce9" secondAttribute="bottom" constant="10" id="NRd-3I-ABR"/>
+                                    <constraint firstAttribute="trailing" secondItem="dXE-aR-naX" secondAttribute="trailing" constant="20" id="OJi-bD-8gK"/>
+                                    <constraint firstAttribute="trailing" secondItem="hIS-3t-2nL" secondAttribute="trailing" constant="20" id="Qki-fp-x3S"/>
+                                    <constraint firstItem="i00-ou-ce9" firstAttribute="top" secondItem="dXE-aR-naX" secondAttribute="bottom" constant="10" id="iVo-jV-wfs"/>
+                                    <constraint firstItem="dXE-aR-naX" firstAttribute="leading" secondItem="UDx-PK-Q7O" secondAttribute="leading" constant="20" id="rBK-EA-lJG"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.74901960784313726" green="0.48627450980392156" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="8TD-7X-50e" firstAttribute="trailing" secondItem="gq9-pX-HFk" secondAttribute="trailing" id="5Zb-yn-0DZ"/>
-                            <constraint firstItem="8TD-7X-50e" firstAttribute="trailing" secondItem="i00-ou-ce9" secondAttribute="trailing" constant="16" id="9mu-gB-Fsu"/>
-                            <constraint firstItem="i00-ou-ce9" firstAttribute="top" secondItem="8TD-7X-50e" secondAttribute="top" constant="416" id="E2z-Rl-jJy"/>
                             <constraint firstItem="gq9-pX-HFk" firstAttribute="leading" secondItem="xgj-RC-iwJ" secondAttribute="leading" id="Jsv-mC-b23"/>
-                            <constraint firstItem="i00-ou-ce9" firstAttribute="leading" secondItem="8TD-7X-50e" secondAttribute="leading" constant="16" id="M6x-r1-UmW"/>
-                            <constraint firstItem="8TD-7X-50e" firstAttribute="bottom" secondItem="i00-ou-ce9" secondAttribute="bottom" constant="20" id="YAc-4x-Kso"/>
                             <constraint firstItem="gq9-pX-HFk" firstAttribute="top" secondItem="xgj-RC-iwJ" secondAttribute="top" id="cte-Dp-oGX"/>
+                            <constraint firstItem="UDx-PK-Q7O" firstAttribute="height" secondItem="xgj-RC-iwJ" secondAttribute="height" multiplier="0.3" id="feH-Ey-OZw"/>
+                            <constraint firstAttribute="trailing" secondItem="UDx-PK-Q7O" secondAttribute="trailing" id="hOF-BP-03R"/>
                             <constraint firstAttribute="bottom" secondItem="gq9-pX-HFk" secondAttribute="bottom" id="kt0-Xr-qPx"/>
+                            <constraint firstItem="UDx-PK-Q7O" firstAttribute="leading" secondItem="xgj-RC-iwJ" secondAttribute="leading" id="lQB-fr-uWD"/>
+                            <constraint firstAttribute="bottom" secondItem="UDx-PK-Q7O" secondAttribute="bottom" id="qt9-Rk-ted"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8TD-7X-50e"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gGT-7u-oQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1368.8" y="917.99100449775119"/>
+            <point key="canvasLocation" x="1368.8" y="917.73399014778329"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TDX-oW-C43">
@@ -419,12 +441,13 @@ ChrisJohnsonFineArt@gmail.com</string>
         </scene>
     </scenes>
     <resources>
+        <image name="About" width="1094" height="2048"/>
         <image name="Hamburger" width="22.5" height="22.5"/>
-        <image name="wpid-20150221_152428-1" width="1614" height="2048"/>
-        <image name="wpid-img_20150828_183132" width="1094" height="2048"/>
+        <image name="Home" width="1614" height="1924"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Mnw-iJ-lkd"/>
         <segue reference="4hC-sv-90l"/>
+        <segue reference="i5i-2f-Rlk"/>
     </inferredMetricsTieBreakers>
 </document>
