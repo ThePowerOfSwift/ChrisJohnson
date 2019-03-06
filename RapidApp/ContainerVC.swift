@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(toggleSideMenu), name: NSNotification.Name("ToggleSideMenu"), object: nil)
     }
     
+    
     @objc func toggleSideMenu() {
         if sideMenuOpen {
             sideMenuOpen = false

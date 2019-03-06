@@ -232,25 +232,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7m8-bE-hOK">
-                                <rect key="frame" x="0.0" y="528" width="375" height="176"/>
+                                <rect key="frame" x="0.0" y="576" width="375" height="128"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yln-AL-3kN">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
-                                        <color key="backgroundColor" red="0.52549019607843139" green="0.72941176470588232" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                    <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yln-AL-3kN">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                        <color key="backgroundColor" red="0.64313725490196072" green="0.51764705882352935" blue="0.32156862745098036" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Latest Work">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <segue destination="Xaq-O4-9j7" kind="show" id="aFo-Id-Ywv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqC-ac-yCJ">
-                                        <rect key="frame" x="0.0" y="92" width="375" height="84"/>
-                                        <color key="backgroundColor" red="0.52549019607843139" green="0.72941176470588232" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                    <button alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqC-ac-yCJ">
+                                        <rect key="frame" x="0.0" y="68" width="375" height="60"/>
+                                        <color key="backgroundColor" red="0.64313725490196072" green="0.51764705882352935" blue="0.32156862745098036" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Find Me">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <segue destination="kxF-9z-Ddm" kind="show" id="CW8-lb-WA1"/>
@@ -446,7 +446,7 @@ Amarillo, Texas 79102
         <image name="Home" width="1614" height="1924"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Mnw-iJ-lkd"/>
+        <segue reference="aFo-Id-Ywv"/>
         <segue reference="4hC-sv-90l"/>
         <segue reference="i5i-2f-Rlk"/>
     </inferredMetricsTieBreakers>
