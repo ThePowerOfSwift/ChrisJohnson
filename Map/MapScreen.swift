@@ -25,6 +25,8 @@ class MapScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    // Make Go button round
         goButton.layer.cornerRadius = goButton.frame.size.height/2
         checkLocationServices()
     }
@@ -34,6 +36,7 @@ class MapScreen: UIViewController {
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
     }
     
+    // Center on user location
     func centerViewOnUserLocation() {
         if let location = locationManager.location?.coordinate {
             let region = MKCoordinateRegion.init(center: location, latitudinalMeters: regionInMeters, longitudinalMeters: regionInMeters)
@@ -41,6 +44,7 @@ class MapScreen: UIViewController {
         }
     }
     
+    // Make sure locatins services is turned on.
     func checkLocationServices() {
         if CLLocationManager.locationServicesEnabled() {
             setupLocationManager()
@@ -50,6 +54,7 @@ class MapScreen: UIViewController {
         }
     }
     
+    // Check locations services autorization
     func checkLocationAuthorization() {
         switch CLLocationManager.authorizationStatus() {
         case .authorizedWhenInUse:
@@ -77,12 +82,13 @@ class MapScreen: UIViewController {
     
     // Set destination coordinates
     func getDestinationLocation(for mapView: MKMapView) -> CLLocation {
-        let latitude = 35.1990561
-        let longitude = -101.8826501
+        let latitude = 35.198515
+        let longitude = -101.879276
         
         return CLLocation(latitude: latitude, longitude: longitude)
     }
     
+    // Get directions
     func getDirections() {
         guard let location = locationManager.location?.coordinate else {
             //TODO: Inform user we don't have their current location
@@ -105,11 +111,12 @@ class MapScreen: UIViewController {
         }
     }
     
+    // Set destination placemark
     func createDirectionsRequest(from coordinate: CLLocationCoordinate2D) -> MKDirections.Request {
         let destinationCoordinate = getDestinationLocation(for: mapView).coordinate
         let startingLocation = MKPlacemark(coordinate: coordinate)
         let destination = MKPlacemark(coordinate: destinationCoordinate)
-        let destinationPin = customPin(pinTitle: "Galleries at Sunset Center", pinSubTitle: "", location: destinationCoordinate)
+        let destinationPin = customPin(pinTitle: "Chris Johnson Art \n3701 Plains Blvd \nGallery 121 \nAmarillo, Texas", pinSubTitle: "", location: destinationCoordinate)
         self.mapView.addAnnotation(destinationPin)
         let request = MKDirections.Request()
         request.source = MKMapItem(placemark: startingLocation)
@@ -120,12 +127,14 @@ class MapScreen: UIViewController {
         return request
     }
     
+    // Reset map view
     func resetMapView(withNew directions: MKDirections) {
         mapView.removeOverlays(mapView.overlays)
         directionsArray.append(directions)
         let _ = directionsArray.map { $0.cancel() }
     }
     
+    // Get "Go" button
     @IBAction func goButtonTapped(_ sender: UIButton) {
         getDirections()
     }

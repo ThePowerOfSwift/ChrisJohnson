@@ -236,10 +236,10 @@
                                 <subviews>
                                     <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yln-AL-3kN">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
-                                        <color key="backgroundColor" red="0.64313725490196072" green="0.51764705882352935" blue="0.32156862745098036" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Latest Work">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <segue destination="Xaq-O4-9j7" kind="show" id="aFo-Id-Ywv"/>
@@ -247,10 +247,10 @@
                                     </button>
                                     <button alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqC-ac-yCJ">
                                         <rect key="frame" x="0.0" y="68" width="375" height="60"/>
-                                        <color key="backgroundColor" red="0.64313725490196072" green="0.51764705882352935" blue="0.32156862745098036" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Find Me">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <segue destination="kxF-9z-Ddm" kind="show" id="CW8-lb-WA1"/>
@@ -346,7 +346,7 @@ Amarillo, Texas 79102
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.80455103711790388" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="dXE-aR-naX" firstAttribute="top" secondItem="UDx-PK-Q7O" secondAttribute="top" constant="20" id="DLg-iR-F7w"/>
                                     <constraint firstItem="hIS-3t-2nL" firstAttribute="leading" secondItem="UDx-PK-Q7O" secondAttribute="leading" constant="20" id="GAT-Sn-feJ"/>
