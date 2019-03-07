@@ -83,6 +83,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="ekt-pw-oE8" firstAttribute="leading" secondItem="w8g-xr-o7K" secondAttribute="leadingMargin" id="9b4-Fr-BQm"/>
                                                 <constraint firstItem="ekt-pw-oE8" firstAttribute="trailing" secondItem="w8g-xr-o7K" secondAttribute="trailingMargin" id="JTC-Uq-vKi"/>
@@ -90,7 +91,6 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="ekt-pw-oE8" secondAttribute="bottom" constant="1" id="zpT-rW-Aod"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="3hf-h1-ZTR">
                                         <rect key="frame" x="0.0" y="99.333333333333343" width="240" height="44"/>
@@ -152,6 +152,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="vF7-lP-oMH" firstAttribute="top" secondItem="2hb-WS-JVJ" secondAttribute="topMargin" id="HSQ-jG-dRJ"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="vF7-lP-oMH" secondAttribute="bottom" constant="1" id="TE6-lT-mpd"/>
@@ -159,7 +160,6 @@
                                                 <constraint firstItem="vF7-lP-oMH" firstAttribute="leading" secondItem="2hb-WS-JVJ" secondAttribute="leadingMargin" id="qn0-Nx-XZo"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="7gF-uB-1BN">
                                         <rect key="frame" x="0.0" y="231.33333333333334" width="240" height="44.000000000000028"/>
