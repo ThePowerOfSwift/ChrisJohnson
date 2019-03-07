@@ -314,11 +314,11 @@
                                 <rect key="frame" x="0.0" y="506.66666666666657" width="375" height="217.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i00-ou-ce9">
-                                        <rect key="frame" x="20" y="68.333333333333371" width="335" height="59.666666666666657"/>
+                                        <rect key="frame" x="20" y="68.333333333333371" width="335" height="61"/>
                                         <string key="text">3701 Plains Boulevard, Gallery 121
 Amarillo, Texas 79102
 (806) 282-5984</string>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -329,13 +329,13 @@ Amarillo, Texas 79102
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hIS-3t-2nL">
-                                        <rect key="frame" x="20" y="138" width="335" height="32"/>
+                                        <rect key="frame" x="20" y="139.33333333333337" width="335" height="31.666666666666657"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="ChrisJohnsonFineArt@gmail.com">
                                                     <attributes>
                                                         <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                        <font key="NSFont" size="17" name=".SFNSText"/>
                                                         <integer key="NSUnderline" value="1"/>
                                                     </attributes>
                                                 </fragment>
@@ -448,6 +448,6 @@ Amarillo, Texas 79102
     <inferredMetricsTieBreakers>
         <segue reference="aFo-Id-Ywv"/>
         <segue reference="4hC-sv-90l"/>
-        <segue reference="i5i-2f-Rlk"/>
+        <segue reference="iXN-b8-FVg"/>
     </inferredMetricsTieBreakers>
 </document>
