@@ -11,6 +11,7 @@ import MessageUI
 
 class ContactViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
+    // Set form fields
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var messageField: UITextView!
@@ -26,7 +27,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
         messageField!.layer.borderColor = UIColor.darkGray.cgColor
         messageField!.layer.borderWidth = 1
     }
-
+    // Send button
     @IBAction func sendButton(_ sender: Any) {
         // Format and send email message
         let toRecipients = ["ChrisJohnsonFineArt@gmail.com"]
@@ -38,6 +39,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
         self.present(mc, animated: true, completion: nil)
     }
     
+    //Get message status
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         // Get message status
         switch result.rawValue {
